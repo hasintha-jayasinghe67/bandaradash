@@ -1,0 +1,95 @@
+{
+  "templates": [
+    {
+      "id": "announcement",
+      "name": "Official announcement",
+      "accent": "#0A1F38",
+      "hint": "AGM, notices, EC messages",
+      "builtin": true,
+      "defaults": {
+        "headline": "Official notice",
+        "body": "Important update from Bandaranayake College OBA.",
+        "footer": "BCOBA · Official",
+        "tags": "#BCOBA #BandaranayakeCollege #BCOBAOfficial"
+      }
+    },
+    {
+      "id": "progress",
+      "name": "Project progress",
+      "accent": "#B42336",
+      "hint": "Main Hall / development updates",
+      "builtin": true,
+      "defaults": {
+        "headline": "Restoring the Pride",
+        "body": "Alumni are rebuilding the Main Hall — brick by brick, generation by generation.",
+        "footer": "BCOBA · Projects",
+        "tags": "#BCOBA #BandaranayakeCollege #RestoringThePride"
+      }
+    },
+    {
+      "id": "alumni",
+      "name": "Alumni story",
+      "accent": "#067647",
+      "hint": "Recognition, interviews",
+      "builtin": true,
+      "defaults": {
+        "headline": "Alumni story",
+        "body": "Celebrating an Old Boy whose journey continues to inspire the next generation.",
+        "footer": "BCOBA · Alumni",
+        "tags": "#BCOBA #BandaranayakeCollege #AlumniStory"
+      }
+    },
+    {
+      "id": "event",
+      "name": "Event promo",
+      "accent": "#175CD3",
+      "hint": "Reunions, ceremonies",
+      "builtin": true,
+      "defaults": {
+        "headline": "Save the date",
+        "body": "Join fellow Old Boys for a BCOBA gathering. Details to follow.",
+        "footer": "BCOBA · Events",
+        "tags": "#BCOBA #BandaranayakeCollege #BCOBAEvents"
+      }
+    },
+    {
+      "id": "membership",
+      "name": "Membership",
+      "accent": "#B54708",
+      "hint": "Renewals, join drives",
+      "builtin": true,
+      "defaults": {
+        "headline": "Membership Drive",
+        "body": "Stay connected with BCOBA. Renew or join and support alumni programmes.",
+        "footer": "BCOBA · Membership",
+        "tags": "#BCOBA #BandaranayakeCollege #JoinBCOBA"
+      }
+    },
+    {
+      "id": "heritage",
+      "name": "Heritage / archive",
+      "accent": "#D4AF63",
+      "hint": "History photos & stories",
+      "builtin": true,
+      "defaults": {
+        "headline": "From the archives",
+        "body": "A moment from our shared history — preserving the pride of Bandaranayake College.",
+        "footer": "BCOBA · Heritage",
+        "tags": "#BCOBA #BandaranayakeCollege #Throwback"
+      }
+    },
+    {
+      "id": "sports-result",
+      "name": "Sports result",
+      "accent": "#067647",
+      "hint": "Match wins",
+      "builtin": false,
+      "defaults": {
+        "headline": "Victory for the Lions",
+        "body": "A proud win for Bandaranayake.",
+        "footer": "BCOBA · Sports",
+        "tags": "#BCOBA #BCOBASports"
+      }
+    }
+  ]
+}

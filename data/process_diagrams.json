@@ -1,0 +1,86 @@
+{
+  "diagrams": [
+    {
+      "id": "bcoba-ops",
+      "title": "BCOBA Digital Operating Model",
+      "subtitle": "Decentralize intake · Centralize publish · Decentralize engagement",
+      "direction": "vertical",
+      "updated_at": "2026-08-11T00:00:00Z",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Content collection",
+          "tone": "navy",
+          "points": [
+            "Executive Committee",
+            "School / Committees / Batches",
+            "Alumni & event organizers submit stories"
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Central management",
+          "tone": "crimson",
+          "points": [
+            "Digital Comms reviews & adapts",
+            "Brand check + channel versions",
+            "Approve → schedule on master calendar"
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Official publishing",
+          "tone": "gold",
+          "points": [
+            "Publish via BCOBA Hub",
+            "Facebook · Instagram · LinkedIn · WhatsApp · YouTube"
+          ]
+        },
+        {
+          "id": "s4",
+          "title": "Engage & escalate",
+          "tone": "green",
+          "points": [
+            "Channel admins reply to routine comments",
+            "Sensitive matters escalate to designated officials",
+            "Track analytics by category / campaign / #tag"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "content-approval-flow",
+      "title": "Content Approval Flow",
+      "subtitle": "Submit to publish",
+      "direction": "horizontal",
+      "updated_at": "2026-08-11T06:11:59Z",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Submit",
+          "tone": "navy",
+          "points": [
+            "Contributor sends story"
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Approve",
+          "tone": "crimson",
+          "points": [
+            "Comms reviews",
+            "Approver signs off"
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Publish",
+          "tone": "green",
+          "points": [
+            "Auto-post or manual"
+          ]
+        }
+      ]
+    }
+  ]
+}

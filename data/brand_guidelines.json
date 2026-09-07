@@ -1,0 +1,53 @@
+{
+  "title": "BCOBA Digital Brand Guidelines",
+  "version": "1.0",
+  "updated": "2026-08-10",
+  "summary": "All official digital communication must remain immediately recognizable as Bandaranayake College OBA — even when a campaign has its own theme.",
+  "logo": {
+    "rules": [
+      "Use the official BCOBA / school crest only from approved master files",
+      "Do not stretch, recolor, or place the crest on busy photo areas without a clear panel",
+      "Leave clear space around the crest equal to at least the height of the letter B in BCOBA"
+    ]
+  },
+  "colors": {
+    "primary": [
+      { "name": "BCOBA Navy", "hex": "#0A1F38" },
+      { "name": "Crimson", "hex": "#B42336" }
+    ],
+    "secondary": [
+      { "name": "Heritage Gold", "hex": "#D4AF63" },
+      { "name": "Paper", "hex": "#F2F4F7" },
+      { "name": "Ink", "hex": "#101828" }
+    ]
+  },
+  "fonts": {
+    "display": "Newsreader / classic serif for headlines",
+    "body": "Manrope / clean sans for body and UI",
+    "note": "Avoid decorative novelty fonts on official posts"
+  },
+  "tone": [
+    "Respectful, confident, alumni-warm — never slangy or political",
+    "English and Sinhala may both be used; keep official notices clear and formal",
+    "Credit people and photo sources; do not invent achievements"
+  ],
+  "photography": [
+    "Prefer real school, Hall, sports, and alumni moments over stock imagery",
+    "Keep faces clear; avoid cluttered screenshots as hero images",
+    "Progress photos should show place/context, not only close-up materials"
+  ],
+  "hashtags": {
+    "master": ["#BCOBA", "#BandaranayakeCollege"],
+    "rules": [
+      "Always include master brand tags on official posts",
+      "Add category + campaign tags automatically from the Hub",
+      "Limit extra custom tags to 2–4 relevant tags"
+    ]
+  },
+  "approval": [
+    "Contributors submit; Digital Comms adapts; Approver publishes",
+    "Sensitive topics (money disputes, discipline, politics, legal) must escalate",
+    "Sponsor logos only with written partnership approval"
+  ],
+  "campaign_themes": "Campaigns may use a controlled accent theme (e.g. Main Hall) but must keep navy/crimson/gold family and BCOBA naming visible."
+}

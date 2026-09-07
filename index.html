@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BCOBA Digital Hub</title>
+    <link rel="stylesheet" href="./css/hub.css" />
+  </head>
+  <body>
+    <main class="login-page">
+      <section class="panel login-card">
+        <div class="brand-mark">BC</div>
+        <div class="brand-kicker" style="color: #93370d">
+          Bandaranayake College OBA
+        </div>
+        <h1>Digital Hub</h1>
+        <p class="muted">
+          Central desk for BCOBA campaigns, calendar, approval and multi-channel
+          publishing.
+        </p>
+        <p class="flow">
+          CONNECT → CREATE → ADAPT → APPROVE → SCHEDULE → PUBLISH → ENGAGE →
+          TRACK
+        </p>
+        <form id="login-form" class="form-grid">
+          <label
+            >Email<input
+              type="email"
+              name="email"
+              required
+              value="admin@bcoba.lk"
+          /></label>
+          <label
+            >Password<input
+              type="password"
+              name="password"
+              required
+              value="admin123"
+          /></label>
+          <button class="btn" type="submit">Enter workspace</button>
+          <p id="login-error" class="error"></p>
+        </form>
+        <div class="demo-box">
+          Demo: admin@bcoba.lk / admin123 · editor@bcoba.lk / editor123 ·
+          contributor@bcoba.lk / contrib123 · channel@bcoba.lk / channel123
+        </div>
+      </section>
+    </main>
+    <script src="/js/hub.js"></script>
+    <script>
+      Hub.initLogin();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BCOBA Digital Hub</title>
+  <link rel="stylesheet" href="./css/hub.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">BC</div>
+        <div class="brand-kicker">BCOBA</div>
+        <h1>Digital Hub</h1>
+        <p>Publish with one brand. Engage as a team.</p>
+      </div>
+
+      <a class="compose-btn" href="#submit" data-nav="#submit">＋ Compose</a>
+
+      <div class="nav-label">Workspace</div>
+      <nav class="nav">
+        <a href="#dashboard" data-nav="#dashboard"><span class="ico">▣</span> Dashboard</a>
+        <a href="#queue" data-nav="#queue"><span class="ico">☰</span> Queue</a>
+        <a href="#calendar" data-nav="#calendar"><span class="ico">▦</span> Calendar</a>
+        <a href="#editor" data-nav="#editor"><span class="ico">✎</span> Publisher</a>
+        <a href="#connections" data-nav="#connections"><span class="ico">⌁</span> Connections</a>
+      </nav>
+
+      <div class="nav-label">Create</div>
+      <nav class="nav">
+        <a href="#templates" data-nav="#templates"><span class="ico">▣</span> Post templates</a>
+        <a href="#diagrams" data-nav="#diagrams"><span class="ico">⇄</span> Process diagrams</a>
+        <a href="#brand" data-nav="#brand"><span class="ico">◈</span> Brand guide</a>
+      </nav>
+
+      <div class="nav-label">Library</div>
+      <nav class="nav">
+        <a href="#campaigns" data-nav="#campaigns"><span class="ico">◎</span> Campaigns</a>
+        <a href="#media" data-nav="#media"><span class="ico">▭</span> Media</a>
+      </nav>
+
+      <div class="nav-label">Community</div>
+      <nav class="nav">
+        <a href="#engagement" data-nav="#engagement"><span class="ico">💬</span> Engagement</a>
+        <a href="#analytics" data-nav="#analytics"><span class="ico">▤</span> Analytics</a>
+      </nav>
+
+      <div class="sidebar-foot">
+        <strong id="user-name">—</strong>
+        <span id="user-role">—</span>
+        <div style="margin-top:0.7rem">
+          <button class="btn small ghost" id="logout-btn" type="button">Sign out</button>
+        </div>
+      </div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h2 id="view-title">Dashboard</h2>
+          <p id="view-sub">Loading…</p>
+        </div>
+        <div class="topbar-actions">
+          <a class="btn secondary small" href="#diagrams">Diagrams</a>
+          <a class="btn secondary small" href="#connections">Connections</a>
+          <a class="btn small" href="#submit">New post</a>
+        </div>
+      </header>
+      <section id="view-dashboard" class="view"></section>
+      <section id="view-submit" class="view hidden"></section>
+      <section id="view-queue" class="view hidden"></section>
+      <section id="view-editor" class="view hidden"></section>
+      <section id="view-calendar" class="view hidden"></section>
+      <section id="view-campaigns" class="view hidden"></section>
+      <section id="view-media" class="view hidden"></section>
+      <section id="view-templates" class="view hidden"></section>
+      <section id="view-diagrams" class="view hidden"></section>
+      <section id="view-brand" class="view hidden"></section>
+      <section id="view-engagement" class="view hidden"></section>
+      <section id="view-analytics" class="view hidden"></section>
+      <section id="view-connections" class="view hidden"></section>
+    </main>
+  </div>
+  <script src="/js/hub.js"></script>
+  <script>Hub.initApp();</script>
+</body>
+</html>

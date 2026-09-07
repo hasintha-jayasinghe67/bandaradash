@@ -1,0 +1,9 @@
+data/*.sqlite
+data/*.sqlite-*
+data/uploads/*
+!data/uploads/.gitkeep
+data/.hub_key
+__pycache__/
+*.pyc
+.DS_Store
+.env
